@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+/*  background-color: lightgrey;*/
+  background-image: url(http://i.imgur.com/zc7GQ16.png);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+#slideshow {
+  padding: 50px;
+}
+
+#slideshow .item{
+  margin: 3px;
+}
+#slideshow .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main-logo {
+  width: 60%;
+}
+
+nav {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  width: 20%;
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  width: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.audtion-slogan {
+  font-size: 24px;
+  color: white;
+}
+
+#slideshow {
+/*  margin: 0px 10% 10px 10%;*/
+  background-color: #EEDC82;
+  /*background-image: url(http://i.imgur.com/zc7GQ16.png);*/
+}
+
+.west-side-story-logo {
+  width: 50%;
+}
+
+#content-auditions {
+  background-color: #5D478B;
+  padding: 20px;
+  /*background-image: url(http://i.imgur.com/zc7GQ16.png);*/
+  /*margin: 0px 10% 10px 10%;*/
+/*  border-radius: 30px;*/
+}
+
+#content-tickets {
+  background-color: #EEE685;
+  padding: 200px;
+/*  margin: 0px 10% 10px 10%;*/
+/*  border-radius: 30px;*/
+}
+
+#content-about {
+  background-color: #575757;
+  padding: 200px;
+ /* margin: 0px 10% 10px 10%;*/
+ /* border-radius: 30px;*/
+}
+
+#content-contact {
+  background-color: #5D478B;
+  padding: 50px;
+/*  margin: 0px 10% 10px 10%;*/
+/*  border-radius: 30px;*/
+}
+
+#content-follow {
+  background-color: red;
+  padding: 50px;
+}
+
+#footer {
+  background-color: lightgrey;
+  padding: 20px 20px 5px 5px;
+  font-size: 20px;
+}
