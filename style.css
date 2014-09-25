@@ -133,18 +133,26 @@ nav ul li a {
 
 #content-testimonials {
   background-color: #5D478B;
-  padding: 50px;
+  padding: 30px;
   color: white;
 }
 
+.testimonials-info {
+  border: 1px solid black;
+  margin: 15px 0px 15px 0px;
+  padding: 10px;
+  background-color: #EEDC82;
+  color: black;
+}
+
 #content-testimonials p {
-  font-size: 22px;
+  font-size: 14px;
 }
 
 .testimonials-photo {
   width: 60%;
-  min-width: 350px;
-  max-width: 850px;
+  max-width: 620px;
+  min-width: 300px;
 }
 
 /*Tickets*/
