@@ -75,14 +75,14 @@ nav ul li a {
 }
 
 .west-side-story-logo {
-  width: 40%;
+  width: 60%;
   min-width: 350px;
   max-width: 550px;
   margin: 0px 5px 8px 5px;
   }
 
 .audition-info {
-  background-image: url("http://i.imgur.com/xLXjTKN.png");
+  background-color: #FFFFFD;
   padding: 15px;
   max-width: 800px;
   margin: auto;
@@ -139,10 +139,11 @@ nav ul li a {
 
 .testimonials-info {
   border: 1px solid black;
-  margin: 15px 0px 15px 0px;
+  margin: 0 auto;
   padding: 10px;
   background-color: #EEDC82;
   color: black;
+  max-width: 1060px;
 }
 
 #content-testimonials p {
@@ -150,9 +151,20 @@ nav ul li a {
 }
 
 .testimonials-photo {
-  width: 60%;
-  max-width: 620px;
+  display: inline-block;
+}
+
+.testimonials-photo img {
+  width: 100%;
   min-width: 300px;
+  max-width: 520px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.testimonials-photo p {
+  font-style: italic;
+  margin: -5px 0 8px 0;
 }
 
 /*Tickets*/
