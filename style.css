@@ -125,8 +125,25 @@ nav ul li a {
   padding-right: 40px;
   padding-bottom: 5px;
   border: 1px gray solid;
-  margin: 20px 20px 60px 20px;
+  margin: 15px 8px 15px 8px;
   display: inline-block;
+}
+
+.archives-photo {
+  display: inline-block;
+}
+
+.archives-photo img {
+  width: 100%;
+  min-width: 280px;
+  max-width: 500px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.archives-photo p {
+  font-style: italic;
+  color: black;
 }
 
 /*Testimonials*/
