@@ -120,7 +120,7 @@ nav ul li a {
 .archives-info {
   background-color: #575757;
   color: white;
-  margin: auto;
+  margin: 0 auto;
   max-width: 430px;
   padding-right: 40px;
   padding-bottom: 5px;
